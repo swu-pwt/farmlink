@@ -1,0 +1,150 @@
+:root {
+  --primary-color: #eed030;
+  --secondary-color: #0a2a1d;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+#hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(72.74deg, rgba(0, 52, 35, 0.55) 56.19%, rgba(0, 0, 0, 0) 94.42%),
+    url('../img/hero.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+nav {
+  background-color: #fff;
+}
+nav .navbar-brand {
+  font-size: 1.5rem;
+}
+#hero h1 {
+  font-size: 3.625rem;
+}
+#hero h1 span {
+  color: var(--primary-color);
+}
+.btn-custom-primary {
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+}
+#blog .btn-custom-primary,
+#products .btn-custom-primary,
+nav .btn-custom-primary {
+  padding: 0.8rem;
+}
+#products .btn-custom-primary,
+nav .btn-custom-primary {
+  font-size: 1rem;
+}
+.btn-custom-primary:hover {
+  background-color: #c9ad0d;
+  color: #000;
+}
+.btn-custom-outline-primary {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  background-color: transparent;
+}
+.btn-custom-outline-primary:hover {
+  background-color: #c9ad0d;
+}
+#services {
+  padding-top: 10rem;
+  padding-bottom: 12rem;
+}
+#services h2,
+#blog h2,
+#products h2 {
+  font-size: 2.625rem;
+}
+#services .card {
+  height: 19.5rem;
+  box-shadow: 10px 30px 30px 0px #0000000d;
+  border-color: #e2e2e2;
+}
+#services .card .card-icon {
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  height: 4.688rem;
+  width: 4.688rem;
+}
+#services .card .card-title,
+#products .card .card-title {
+  font-size: 1.5rem;
+}
+#blog {
+  background-color: var(--secondary-color);
+  padding-top: 10rem;
+  padding-bottom: 12rem;
+}
+#blog h3 {
+  font-size: 1.5rem;
+}
+#products {
+  padding-top: 10rem;
+  padding-bottom: 12rem;
+}
+#products .card {
+  background-color: var(--secondary-color);
+  border: none;
+}
+#info {
+  width: 100%;
+  height: 25rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/info.png');
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#info .card {
+  height: 100%;
+  background-color: #0a2a1d;
+  border: none;
+}
+#info .card .card-title {
+  font-size: 1.25rem;
+}
+#contact {
+  padding: 4rem 0;
+  background-color: var(--secondary-color);
+}
+#contact h3 {
+  font-size: 2.1rem;
+}
+#contact h4 {
+  font-size: 1.5rem;
+}
+#contact p {
+  font-size: 1.1rem;
+}
+#contact ul li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+  #products img {
+    height: 18.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #info {
+    height: 100%;
+    padding: 4rem 0;
+  }
+}
