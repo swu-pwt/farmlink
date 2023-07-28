@@ -57,6 +57,7 @@ nav .navbar-brand {
   padding-top: 10rem;
   padding-bottom: 12rem;
 }
+
 #services h2,
 #blog h2,
 #products h2 {
@@ -126,6 +127,27 @@ nav .navbar-brand {
 }
 #contact ul li a {
   text-decoration: none;
+}
+
+/* Services Page */
+#services .img-header-services img {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#services .container-detail {
+  padding: 5rem 0 10rem;
+}
+#services .row-detail {
+  padding-top: 10rem;
+}
+#services .row-detail h3 {
+  font-size: 2.625rem;
+}
+#services .row-detail p {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 576px) {
