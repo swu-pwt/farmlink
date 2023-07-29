@@ -1,0 +1,21 @@
+html,
+body{
+    height: 100%;
+    background-color: #ffffff !important;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff !important;
+}
+
+.login-form{
+    width: 490px;
+    height: 350px;
+    padding: 20px;
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+}
