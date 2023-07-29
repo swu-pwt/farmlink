@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #eed030;
+    --secondary-color: #0a2a1d;
+}
+
+html,
+body{
+    height: 100%;
+    background-color: #ffffff !important;
+    color: #0A2A1D;
+}
+
+.footer{
+    background-color: #0A2A1D;
+    width: 100%;
+}
+#contact {
+    padding: 4rem 0;
+    background-color: var(--secondary-color);
+  }
+  #contact h3 {
+    font-size: 2.1rem;
+  }
+  #contact h4 {
+    font-size: 1.5rem;
+  }
+  #contact p {
+    font-size: 1.1rem;
+  }
+  #contact ul li a {
+    text-decoration: none;
+  }
+
+  #services .img-header-services img {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #services .container-detail {
+    padding: 5rem 0 10rem;
+  }
+  #services .row-detail {
+    padding-top: 10rem;
+  }
+  #services .row-detail h3 {
+    font-size: 2.625rem;
+  }
+  #services .row-detail p {
+    font-size: 1.5rem;
+  }
