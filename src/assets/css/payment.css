@@ -28,7 +28,7 @@ body {
   font-size: 3rem;
 }
 #payment {
-  padding: 3rem;
+  padding: 3rem 0 8rem 0;
 }
 #payment h2 {
   font-size: 3rem;
@@ -63,9 +63,6 @@ footer .btn-custom-primary {
 @media screen and (max-width: 576px) {
   .navbar a {
     font-size: 2rem;
-  }
-  #payment {
-    padding: 1.5rem;
   }
   #payment h2 {
     font-size: 2rem;
