@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     />
     <!-- My Custom CSS -->
-    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="./src/assets/css/app.css" />
   </head>
 
   <body>
@@ -45,16 +45,29 @@
                 <a class="nav-link active fw-bold" href="#">Beranda</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link" href="./layanan.html">Layanan</a>
+                <a class="nav-link" href="./src/pages/services/index.html">Layanan</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link" href="#">Tentang</a>
+                <a class="nav-link" href="./src/pages/about/index.html">Tentang</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link" href="#">Produk</a>
+                <a class="nav-link" href="./src/pages/products/index.html">Pasar Panen</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="./src/pages/consultation/index.html">Konsultasi</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="./src/pages/article/index.html">Tips & Trik</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="./src/pages/contact/index.html">Contact</a>
               </li>
             </ul>
-            <button class="btn btn-custom-primary fw-semibold text-uppercase">Masuk</button>
+            <a
+              href="./src/pages/login/index.html"
+              class="btn btn-custom-primary fw-semibold text-uppercase"
+              >Masuk</a
+            >
           </div>
         </div>
       </nav>
@@ -84,7 +97,7 @@
                   class="card-body text-center d-flex flex-column justify-content-center align-items-center"
                 >
                   <div class="card-icon d-flex justify-content-center mb-3">
-                    <img src="./assets/img/icons/🦆 icon _shopping_.svg" alt="Pasar Panen" />
+                    <img src="./src/assets/img/icons/🦆 icon _shopping_.svg" alt="Pasar Panen" />
                   </div>
                   <h5 class="card-title fw-bold">Pasar Panen</h5>
                   <p class="card-text">
@@ -100,7 +113,7 @@
                   class="card-body text-center d-flex flex-column justify-content-center align-items-center"
                 >
                   <div class="card-icon d-flex justify-content-center mb-3">
-                    <img src="./assets/img/icons/🦆 icon _people_.svg" alt="Pasar Panen" />
+                    <img src="./src/assets/img/icons/🦆 icon _people_.svg" alt="Pasar Panen" />
                   </div>
                   <h5 class="card-title fw-bold">Konsultasi</h5>
                   <p class="card-text">
@@ -115,7 +128,7 @@
                   class="card-body text-center d-flex flex-column justify-content-center align-items-center"
                 >
                   <div class="card-icon d-flex justify-content-center mb-3">
-                    <img src="./assets/img/icons/🦆 icon _leaves_.svg" alt="Pasar Panen" />
+                    <img src="./src/assets/img/icons/🦆 icon _leaves_.svg" alt="Pasar Panen" />
                   </div>
                   <h5 class="card-title fw-bold">Tips & Trik</h5>
                   <p class="card-text">
@@ -131,7 +144,7 @@
                   class="card-body text-center d-flex flex-column justify-content-center align-items-center"
                 >
                   <div class="card-icon d-flex justify-content-center mb-3">
-                    <img src="./assets/img/icons/🦆 icon _info_.svg" alt="Pasar Panen" />
+                    <img src="./src/assets/img/icons/🦆 icon _info_.svg" alt="Pasar Panen" />
                   </div>
                   <h5 class="card-title fw-bold">Info Cuaca</h5>
                   <p class="card-text">
@@ -154,15 +167,16 @@
             </div>
             <div class="col-md-6">
               <div class="d-md-grid d-md-flex justify-content-md-end">
-                <button
+                <a
+                  href="./src/pages/article/index.html"
                   class="btn btn-custom-outline-primary fw-semibold text-uppercase me-md-2 p-3"
                 >
                   Lihat Semua
-                </button>
+                </a>
               </div>
             </div>
             <div class="col-md-5">
-              <img src="./assets/img/blog/1.png" class="img-fluid" />
+              <img src="./src/assets/img/blog/1.png" class="img-fluid" />
             </div>
             <div class="col-md-7">
               <h3 class="fw-bold">
@@ -174,13 +188,16 @@
                 Konsumsi gandum secara teratur dapat membantu meningkatkan kesehatan jantung dan
                 mengurangi risiko penyakit kronis.
               </p>
-              <button class="btn btn-custom-primary fw-semibold text-uppercase">
+              <a
+                href="./src/pages/article/detail_article.html"
+                class="btn btn-custom-primary fw-semibold text-uppercase"
+              >
                 Selengkapnya
-              </button>
+              </a>
             </div>
             <div class="col-12 border bottom"></div>
             <div class="col-md-5">
-              <img src="./assets/img/blog/2.png" class="img-fluid" />
+              <img src="./src/assets/img/blog/2.png" class="img-fluid" />
             </div>
             <div class="col-md-7">
               <h3 class="fw-bold">Cuaca dan Pertanian: Info Penting untuk Hasil Panen Sukses</h3>
@@ -190,9 +207,12 @@
                 petani dapat merencanakan waktu tanam, irigasi, perlindungan tanaman, dan
                 pemeliharaan
               </p>
-              <button class="btn btn-custom-primary fw-semibold text-uppercase">
+              <a
+                href="./src/pages/article/detail_article.html"
+                class="btn btn-custom-primary fw-semibold text-uppercase"
+              >
                 Selengkapnya
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -206,50 +226,66 @@
           <div class="row gy-4">
             <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="card text-white">
-                <img src="./assets/img/products/1.png" class="card-img-top" />
+                <img src="./src/assets/img/products/1.png" class="card-img-top" />
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Buah & Sayur</h5>
                   <p class="card-text">
                     Dapatkan buah dan sayuran berkualitas dari tangan pertama hanya di sini!
                   </p>
-                  <a href="#" class="btn btn-custom-primary fw-semibold text-uppercase">Jelajahi</a>
+                  <a
+                    href="./src/pages/products/index.html"
+                    class="btn btn-custom-primary fw-semibold text-uppercase"
+                    >Jelajahi</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="card text-white">
-                <img src="./assets/img/products/2.png" class="card-img-top" alt="..." />
+                <img src="./src/assets/img/products/2.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Beras & Biji-bijian</h5>
                   <p class="card-text">
                     Dapatkan beras dan biji-bijian pilihan berkualitas dari tangan pertama hanya di
                     sini!
                   </p>
-                  <a href="#" class="btn btn-custom-primary fw-semibold text-uppercase">Jelajahi</a>
+                  <a
+                    href="./src/pages/products/index.html"
+                    class="btn btn-custom-primary fw-semibold text-uppercase"
+                    >Jelajahi</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="card text-white">
-                <img src="./assets/img/products/3.png" class="card-img-top" alt="..." />
+                <img src="./src/assets/img/products/3.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Teknologi</h5>
                   <p class="card-text">
                     Dapatkan alat pertanian pilihan berkualitas dari tangan pertama hanya di sini!
                   </p>
-                  <a href="#" class="btn btn-custom-primary fw-semibold text-uppercase">Jelajahi</a>
+                  <a
+                    href="./src/pages/products/index.html"
+                    class="btn btn-custom-primary fw-semibold text-uppercase"
+                    >Jelajahi</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
               <div class="card text-white">
-                <img src="./assets/img/products/4.png" class="card-img-top" alt="..." />
+                <img src="./src/assets/img/products/4.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title fw-bold">Pupuk</h5>
                   <p class="card-text">
                     Dapatkan aneka pupuk pilihan berkualitas dari tangan pertama hanya di sini!
                   </p>
-                  <a href="#" class="btn btn-custom-primary fw-semibold text-uppercase">Jelajahi</a>
+                  <a
+                    href="./src/pages/products/index.html"
+                    class="btn btn-custom-primary fw-semibold text-uppercase"
+                    >Jelajahi</a
+                  >
                 </div>
               </div>
             </div>
@@ -269,7 +305,7 @@
                 >
                   <div class="col-md-4 d-flex justify-content-center">
                     <img
-                      src="./assets/img/icons/🦆 icon _sun_.svg"
+                      src="./src/assets/img/icons/🦆 icon _sun_.svg"
                       class="img-fluid rounded-start"
                     />
                   </div>
@@ -289,7 +325,7 @@
                 >
                   <div class="col-md-4 d-flex justify-content-center">
                     <img
-                      src="./assets/img/icons/🦆 icon _water_level_.svg"
+                      src="./src/assets/img/icons/🦆 icon _water_level_.svg"
                       class="img-fluid rounded-start"
                     />
                   </div>
@@ -309,7 +345,7 @@
                 >
                   <div class="col-md-4 d-flex justify-content-center">
                     <img
-                      src="./assets/img/icons/🦆 icon _flower_.svg"
+                      src="./src/assets/img/icons/🦆 icon _flower_.svg"
                       class="img-fluid rounded-start"
                     />
                   </div>
@@ -320,6 +356,18 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                <a
+                  href="./src/pages/weather/index.html"
+                  class="btn btn-custom-primary fw-bold text-uppercase"
+                >
+                  Lihat Selengkapnya
+                </a>
               </div>
             </div>
           </div>
@@ -360,13 +408,10 @@
                   <a href="#" class="text-white">Beranda</a>
                 </li>
                 <li class="mb-2">
-                  <a href="#" class="text-white">Layanan Kami</a>
+                  <a href="./src/pages/services/index.html" class="text-white">Layanan Kami</a>
                 </li>
                 <li class="mb-2">
-                  <a href="#" class="text-white">Tentang Kami</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" class="text-white">Produk</a>
+                  <a href="./src/pages/about/index.html" class="text-white">Tentang Kami</a>
                 </li>
               </ul>
             </div>

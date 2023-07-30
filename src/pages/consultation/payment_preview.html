@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm Link Indonesia</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="../../assets/css/payment_preview.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid p-0">
+      <!-- Navbar Start -->
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="../../pages/products/detail.html"
+            ><img src="../../assets/img/icons/ep_arrow-left-bold.svg" width="40" /> Beli</a
+          >
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <div class="info pt-4 pb-3 text-white">
+        <div class="container">
+          <p>Ini halaman terakhir dari proses belanjamu. Pastikan semua sudah benar ya :)</p>
+        </div>
+      </div>
+
+      <!-- Payment Preview Section Start -->
+      <section id="payment-prev">
+        <div class="container">
+          <h2 class="fw-bold">Produk Yang Dibeli</h2>
+          <h4><img src="../../assets/img/icons/toko.svg" width="30" /> Toko Sejahtera Sekali</h4>
+          <small>Kota Tegal</small>
+          <section class="product-card mt-4 mb-4">
+            <div class="row mb-5">
+              <div class="col-md-4 mb-3">
+                <img
+                  src="../../assets/img/products/detail-product.png"
+                  class="img-fluid"
+                  alt="Beras Putih Sehat"
+                />
+              </div>
+              <div class="col-md-6">
+                <h3 class="fw-bold">Beras Putih Sehat Kemasan 1 Kg</h3>
+                <h2 class="fw-bold mt-2 mb-2">Rp 13.000</h2>
+                <p class="fw-bold mt-2" style="cursor: pointer">Tambah Catatan</p>
+                <button type="button" class="btn btn-custom-counter mt-5 me-3">
+                  <span class="badge me-4">-</span> 2
+                  <span class="badge ms-4">+</span>
+                </button>
+              </div>
+            </div>
+          </section>
+          <section class="payment-info">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold mb-4 text-center">Pengiriman dan Pembayaran</h2>
+              <div class="col-md-10">
+                <div class="card">
+                  <div class="card-body p-4">
+                    <span class="fw-bold">Rumah</span> - Monika Dian U (628123456789) Jl. abcdefghi
+                    Kec. jklmnopq Kab. rstuvwxyz
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body p-4">
+                    <span class="fw-bold">Pengiriman Reguler</span> <br />
+                    J&T (Rp 15.000) <span style="color: rgba(0, 0, 0, 0.5)">estimasi 3 hari</span>
+                  </div>
+                </div>
+                <select class="form-select mt-5">
+                  <option selected>Makin Hemat Pakai Promo</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- Payment Preview Section End -->
+
+      <!-- Footer Section Start -->
+      <footer class="sticky-bottom">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+              <h5 class="fw-semibold">Total Tagihan</h5>
+              <h4 class="fw-bold">Rp 26.000</h4>
+            </div>
+            <div class="col-md-6">
+              <div class="d-grid d-md-flex justify-content-md-end">
+                <a href="./payment.html" class="btn btn-custom-primary fw-bold text-uppercase">
+                  Pilih Metode Pembayaran
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section Start -->
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

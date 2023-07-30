@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #eed030;
+  --secondary-color: #0a2a1d;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.btn-custom-primary {
+  padding: 0.8rem;
+  background-color: var(--primary-color);
+}
+.btn-custom-primary:hover {
+  background-color: #c9ad0d;
+  color: #000;
+}
+.btn-custom-primary:focus {
+  background-color: #c9ad0d;
+  color: #000;
+}
+.navbar {
+  box-shadow: 10px 30px 30px 0px #0000000d;
+}
+.navbar a {
+  font-size: 3rem;
+}
+#payment {
+  padding: 3rem;
+}
+#payment h2 {
+  font-size: 3rem;
+}
+#payment h3 {
+  font-size: 2rem;
+}
+#payment .card {
+  background-color: var(--primary-color);
+}
+#payment .card h4 {
+  font-size: 1.5rem;
+}
+#payment h5 {
+  font-size: 1rem;
+}
+footer {
+  padding: 0.8rem;
+  color: #fff;
+  background-color: var(--secondary-color);
+}
+footer h5 {
+  font-size: 1.5rem;
+}
+footer h4 {
+  font-size: 2rem;
+}
+footer .btn-custom-primary {
+  font-size: 1.5rem;
+}

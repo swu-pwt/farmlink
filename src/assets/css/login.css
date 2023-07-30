@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #eed030;
+  --secondary-color: #0a2a1d;
+}
+html,
+body {
+  height: 100%;
+  background-color: #ffffff !important;
+  font-family: 'Poppins', sans-serif;
+}
+.btn-custom-primary {
+  padding: 0.8rem;
+  background-color: var(--primary-color);
+}
+.btn-custom-primary:hover {
+  background-color: #c9ad0d;
+  color: #000;
+}
+.btn-custom-primary:focus {
+  background-color: #c9ad0d;
+  color: #000;
+}
+nav {
+  background-color: #fff;
+  box-shadow: 10px 30px 30px 0px #0000000d;
+}
+nav .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff !important;
+}
+
+.login-form {
+  width: 490px;
+  height: 350px;
+  padding: 20px;
+  background-color: #ffffff !important;
+  border-radius: 10px !important;
+}

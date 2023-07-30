@@ -1,0 +1,129 @@
+:root {
+  --primary-color: #eed030;
+  --secondary-color: #0a2a1d;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.btn-custom-primary {
+  padding: 0.8rem;
+  background-color: var(--primary-color);
+}
+.btn-custom-primary:hover {
+  background-color: #c9ad0d;
+  color: #000;
+}
+.btn-custom-primary:focus {
+  background-color: #c9ad0d;
+  color: #000;
+}
+nav {
+  background-color: #fff;
+  box-shadow: 10px 30px 30px 0px #0000000d;
+}
+nav .navbar-brand {
+  font-size: 1.5rem;
+}
+#consultation .tagline {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  margin-bottom: 5rem;
+}
+#consultation .tagline h3,
+#consultation .services-card h2 {
+  font-size: 3rem;
+}
+#consultation .services-card h2 {
+  margin-bottom: 3rem;
+}
+#consultation .services-card .container .row:nth-of-type(1),
+#consultation .services-card .container .row:nth-of-type(2) {
+  margin-bottom: 3rem;
+}
+
+#consultation .services-card .container .row:nth-of-type(2) h3 {
+  font-size: 1.5rem;
+}
+#consultation .services-card .container .row:nth-of-type(2) p {
+  font-size: 1.2rem;
+}
+
+#consultation .services-card .card-image-1 {
+  background: linear-gradient(72.74deg, rgba(0, 52, 35, 0.55) 56.19%, rgba(0, 0, 0, 0) 94.42%),
+    url('../img/consultation/1.png');
+  border-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#consultation .services-card .card-image-2 {
+  background: linear-gradient(72.74deg, rgba(0, 52, 35, 0.55) 56.19%, rgba(0, 0, 0, 0) 94.42%),
+    url('../img/consultation/2.png');
+  border-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#consultation .services-card .card {
+  height: 100%;
+}
+#consultation .services-card .card-image-3 {
+  background: linear-gradient(72.74deg, rgba(0, 52, 35, 0.55) 56.19%, rgba(0, 0, 0, 0) 94.42%),
+    url('../img/consultation/3.png');
+  border-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#consultation .services-card .card-image-4 {
+  background: linear-gradient(72.74deg, rgba(0, 52, 35, 0.55) 56.19%, rgba(0, 0, 0, 0) 94.42%),
+    url('../img/consultation/4.png');
+  border-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#consultation .services-card .card-image-5 {
+  background: linear-gradient(72.74deg, rgba(0, 52, 35, 0.55) 56.19%, rgba(0, 0, 0, 0) 94.42%),
+    url('../img/consultation/5.png');
+  border-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#consultation .services-card .card-image-6 {
+  background: linear-gradient(72.74deg, rgba(0, 52, 35, 0.55) 56.19%, rgba(0, 0, 0, 0) 94.42%),
+    url('../img/consultation/6.png');
+  border-color: #e2e2e2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#consultation .services-card .card .card-title,
+#consultation .services-card .card a {
+  font-size: 1.5rem;
+}
+#consultation .tagline p {
+  font-size: 1.5rem;
+}
+#contact {
+  padding: 4rem 0;
+  background-color: var(--secondary-color);
+}
+#contact h3 {
+  font-size: 2.1rem;
+}
+#contact h4 {
+  font-size: 1.5rem;
+}
+#contact p {
+  font-size: 1.1rem;
+}
+#contact ul li a {
+  text-decoration: none;
+}

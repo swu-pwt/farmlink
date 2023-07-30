@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm Link Indonesia</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="../../assets/css/register.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid p-0">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container p-2">
+          <a class="navbar-brand fw-bold" href="#">FarmLink</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link" href="../../../index.html">Beranda</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="../services/index.html">Layanan</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="../about/index.html">Tentang</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="../products/index.html">Pasar Panen</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="../consultation/index.html">Konsultasi</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="../article/index.html">Tips & Trik</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="../contact/index.html">Contact</a>
+              </li>
+            </ul>
+            <a href="../login/index.html" class="btn btn-custom-primary fw-semibold text-uppercase"
+              >Masuk</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!--Register Start-->
+      <div class="global-container">
+        <div class="card login-form border-0">
+          <div class="card-body">
+            <h1 class="card-title text-center fs-2 fw-bold" style="color: #0a2a1d">
+              Daftar ke FarmLink
+            </h1>
+            <p class="text-center" style="color: #0a2a1d">
+              Daftar menjadi Mitra Kami sekarang untuk promo dan produk terbaik farmlink
+            </p>
+          </div>
+          <div class="card-text">
+            <form>
+              <div class="mb-3">
+                <input
+                  style="color: #0a2a1d"
+                  type="text"
+                  placeholder="Masukan Nama Lengkap"
+                  class="form-control fs-6 p-3"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  style="color: #0a2a1d"
+                  type="email"
+                  placeholder="Masukan Email"
+                  class="form-control fs-6 p-3"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  style="color: #0a2a1d"
+                  type="password"
+                  placeholder="Masukan Password"
+                  class="form-control fs-6 p-3"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <select class="form-select mb-3 p-3">
+                <option selected>Daftar Sebagai (Pembeli, Penjual, Konsultan)</option>
+                <option value="1">Pembeli</option>
+                <option value="2">Penjual</option>
+                <option value="3">Konsultan</option>
+              </select>
+              <div>
+                <label class="form-check-label" for="exampleCheck1"
+                  >Sudah punya akun?<a
+                    style="color: #0a2a1d; text-decoration: none"
+                    class="link-dark fw-bold ms-2"
+                    href="../login/index.html"
+                    >Masuk</a
+                  ></label
+                >
+              </div>
+              <button
+                type="button"
+                class="mt-5 btn btn-custom-primary fw-semibold mb-5 text-uppercase"
+                style="color: #0a2a1d"
+              >
+                Daftar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

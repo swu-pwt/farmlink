@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #eed030;
+  --secondary-color: #0a2a1d;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.btn-custom-primary {
+  padding: 0.8rem;
+  background-color: var(--primary-color);
+}
+.btn-custom-primary:hover {
+  background-color: #c9ad0d;
+  color: #000;
+}
+.btn-custom-primary:focus {
+  background-color: #c9ad0d;
+  color: #000;
+}
+.navbar a {
+  font-size: 3rem;
+}
+.info {
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+.info p {
+  font-size: 1.5rem;
+}
+#payment-prev {
+  padding: 3rem 0;
+}
+#payment-prev h2 {
+  font-size: 3rem;
+}
+#payment-prev h4 {
+  font-size: 1.5rem;
+}
+#payment-prev > small {
+  color: rgba(0, 0, 0, 0.5);
+}
+#payment-prev .product-card .btn-custom-counter {
+  background-color: #f4f4f4;
+  font-size: 2rem;
+}
+#payment-prev .product-card p {
+  color: var(--primary-color);
+  line-height: 1.8rem;
+}
+#payment-prev .product-card .btn-custom-counter .badge {
+  background-color: var(--primary-color);
+  color: #000;
+}
+#payment-prev .payment-info h2 {
+  font-size: 3rem;
+}
+#payment-prev .payment-info .card {
+  background-color: #f4f4f4;
+}
+#payment-prev .payment-info .card .card-body {
+  font-size: 1.5rem;
+}
+#payment-prev .payment-info select {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+footer {
+  padding: 0.8rem;
+  color: #fff;
+  background-color: var(--secondary-color);
+}
+footer h5 {
+  font-size: 1.5rem;
+}
+footer h4 {
+  font-size: 2rem;
+}
+footer .btn-custom-primary {
+  font-size: 1.5rem;
+}
