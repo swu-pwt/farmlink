@@ -79,3 +79,15 @@ nav .navbar-brand {
 #contact ul li a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 576px) {
+  #experts_list .experts_card .card h3 {
+    font-size: 2rem;
+  }
+  #experts_list {
+    padding: 0;
+  }
+  #experts_list .experts_card .card .card-title {
+    font-size: 1.7rem;
+  }
+}

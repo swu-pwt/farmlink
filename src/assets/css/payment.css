@@ -59,3 +59,35 @@ footer h4 {
 footer .btn-custom-primary {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 576px) {
+  .navbar a {
+    font-size: 2rem;
+  }
+  #payment {
+    padding: 1.5rem;
+  }
+  #payment h2 {
+    font-size: 2rem;
+  }
+  #payment h3 {
+    font-size: 1.2rem;
+  }
+  #payment .card h4 {
+    font-size: 1.1rem;
+  }
+  footer {
+    padding: 0.5rem;
+    color: #fff;
+    background-color: var(--secondary-color);
+  }
+  footer h5 {
+    font-size: 1rem;
+  }
+  footer h4 {
+    font-size: 1.5rem;
+  }
+  footer .btn-custom-primary {
+    font-size: 1rem;
+  }
+}

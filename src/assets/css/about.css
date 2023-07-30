@@ -68,3 +68,9 @@ nav .navbar-brand {
 #contact ul li a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 576px) {
+  #about h2 {
+    font-size: 2rem;
+  }
+}
