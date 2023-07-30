@@ -40,6 +40,7 @@ nav .navbar-brand {
 #products .card {
   box-shadow: 10px 30px 30px 0px #0000000d;
   border-color: #e2e2e2;
+  border-radius: 10px;
 }
 
 #contact {

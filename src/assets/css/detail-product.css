@@ -42,6 +42,7 @@ nav .navbar-brand {
 }
 #detail-product {
   padding: 5rem 0 10rem 0;
+  border-radius: 10px;
 }
 #detail-product input {
   background-color: #f4f4f4;
