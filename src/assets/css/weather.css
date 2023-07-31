@@ -28,7 +28,9 @@ nav {
 nav .navbar-brand {
   font-size: 1.5rem;
 }
-
+#weather {
+  padding: 4rem 0 14rem 0;
+}
 #weather .img-header img {
   width: 100%;
   height: 400px;
@@ -37,10 +39,11 @@ nav .navbar-brand {
   object-fit: cover;
   padding-bottom: 3rem;
 }
+
 #weather h2 {
   font-size: 2.625rem;
 }
-#weather #info {
+/* #weather #info {
   width: 100%;
   display: flex;
   align-items: center;
@@ -54,6 +57,46 @@ nav .navbar-brand {
 }
 #weather #info .card .card-title {
   font-size: 1.25rem;
+} */
+
+/* Google Weather */
+.google-weather-place {
+  width: calc(655px / 2);
+  height: calc(450px / 2);
+}
+.google-weather-crop {
+  width: calc(655px / 2);
+  height: calc(450px / 2);
+  overflow: hidden;
+  transition: 0.3s;
+  position: absolute;
+}
+.google-weather-crop:hover {
+  width: 655px;
+  height: 450px;
+}
+.google-weather {
+  position: relative;
+  left: -180px;
+  top: -180px;
+  width: 2560px;
+  height: 5120px;
+  transform: scale(0.5);
+  transform-origin: 180px 180px;
+  transition: 0.3s;
+  position: absolute;
+}
+.google-weather:hover {
+  transform: scale(1);
+  z-index: 1000;
+}
+.content {
+  /* Atur lebar dan tinggi konten */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact {
