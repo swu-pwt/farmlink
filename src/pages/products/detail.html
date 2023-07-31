@@ -155,50 +155,66 @@
           <section class="product-info">
             <div class="row mb-5">
               <div class="col-md-7">
-                <div class="row mb-3">
-                  <div
-                    class="col-md-2 col-4 border-2 border-bottom border-dark text-center me-3"
-                    style="cursor: pointer"
-                  >
-                    <h6 class="fw-bold">Detail</h6>
+                <div class="row mb-3 text-center justify-content-center">
+                  <div class="col-3 menu-detail menu-item active" style="cursor: pointer">
+                    <h6 class="fw-bold active-color">Detail</h6>
                   </div>
-                  <div class="col-4 col-md-3" style="cursor: pointer">
-                    <h6 style="color: rgba(0, 0, 0, 0.5)">Info Penting</h6>
+                  <div class="col-3 menu-item" style="cursor: pointer">
+                    <h6 class="unactive-color">Info Penting</h6>
+                  </div>
+                  <div class="col-3 menu-item" style="cursor: pointer">
+                    <h6 class="unactive-color">Ulasan</h6>
+                  </div>
+                  <div class="col-3 menu-chat menu-item" style="cursor: pointer">
+                    <h6 class="unactive-color">Diskusi</h6>
                   </div>
                 </div>
-                <div class="mb-4 p-2 p-md-0">
-                  <p style="color: rgba(0, 0, 0, 0.5)">
-                    Max Pesanan : <span class="fw-bold">1 kg</span>
-                  </p>
-                  <p style="color: rgba(0, 0, 0, 0.5)">
-                    Kondisi : <span class="fw-bold">Baru</span>
-                  </p>
-                </div>
-                <p class="p-2 p-md-0">
-                  Beras ini memiliki banyak kandungan dan gizi yang melimpah. Sangat bermanfaat
-                  membuat tubuh anda sehat.
-                </p>
-                <div class="row align-items-center mb-3 p-2 p-md-0">
-                  <div class="col-2">
-                    <img src="../../assets/img/icons/toko.svg" class="w-100" />
-                  </div>
-                  <div class="col-7">
-                    <h6 class="fw-bold fs-md-4 fs-5">Toko Sejahtera Sekali</h6>
+                <div class="mb-3 p-2 p-md-0 content-detail">
+                  <div class="mb-4">
                     <p style="color: rgba(0, 0, 0, 0.5)">
-                      <span class="fw-bold">4.9</span> rata-rata ulasan
+                      Max Pesanan : <span class="fw-bold">1 kg</span>
+                    </p>
+                    <p style="color: rgba(0, 0, 0, 0.5)">
+                      Kondisi : <span class="fw-bold">Baru</span>
+                    </p>
+                    <p>
+                      Beras ini memiliki banyak kandungan dan gizi yang melimpah. Sangat bermanfaat
+                      membuat tubuh anda sehat.
                     </p>
                   </div>
-                  <div class="col-3">
-                    <button class="btn btn-custom-outline-primary">Ikuti</button>
+                  <div class="row align-items-center mb-3">
+                    <div class="col-2">
+                      <img src="../../assets/img/icons/toko.svg" class="w-100" />
+                    </div>
+                    <div class="col-7">
+                      <h6 class="fw-bold fs-md-4 fs-5">Toko Sejahtera Sekali</h6>
+                      <p style="color: rgba(0, 0, 0, 0.5)">
+                        <span class="fw-bold">4.9</span> rata-rata ulasan
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <button class="btn btn-custom-outline-primary">Ikuti</button>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="fw-bold" style="font-size: 1.5rem">Pengiriman</h6>
+                    <p style="color: rgba(0, 0, 0, 0.5)">
+                      <img src="../../assets/img/icons/truk.svg" /> Dikirim dari
+                      <span class="fw-bold">Tegal</span>
+                    </p>
                   </div>
                 </div>
-                <div class="mb-3 p-2 p-md-0">
-                  <h6 class="fw-bold" style="font-size: 1.5rem">Pengiriman</h6>
-                  <p style="color: rgba(0, 0, 0, 0.5)">
-                    <img src="../../assets/img/icons/truk.svg" /> Dikirim dari
-                    <span class="fw-bold">Tegal</span>
-                  </p>
+                <div class="mb-3 p-2 p-md-0 content-chat d-none">
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      rows="6"
+                      placeholder="Ketik pesan disini"
+                    ></textarea>
+                  </div>
+                  <button class="btn btn-custom-primary fw-bold text-uppercase">Kirim</button>
                 </div>
+
                 <div class="mb-4 p-2 p-md-0">
                   <p>
                     Ada masalah dengan produk?
@@ -402,5 +418,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
+    <script src="../../assets/js/script.js"></script>
   </body>
 </html>
